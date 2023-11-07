@@ -27,6 +27,7 @@ ul,li{
 
 body{
   font-family: 'Outfit', sans-serif;
+  color: var(--White);
 }
 
 .container{
@@ -38,7 +39,17 @@ body{
   align-items: center;
   justify-content: center;
 }
-
+.card{
+  background-color: var(--Very-dark-blue-cardBG);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 16rem;
+  height: 27rem;
+  padding: 1rem;
+}
 
 
 
