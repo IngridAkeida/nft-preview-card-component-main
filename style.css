@@ -86,6 +86,11 @@ body{
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.card-title:hover{
+  color: var(--Cyan);
 }
 
 .card-text{
@@ -141,6 +146,11 @@ hr{
 
 .nameUser{
   color: var(--White);
+  cursor: pointer;
+}
+
+.nameUser:hover{
+  color: var(--Cyan);
 }
 
 .picture{
@@ -157,4 +167,8 @@ hr{
 
 .attribution a { 
   color: var(--footer); 
+}
+
+.attribution a:hover { 
+  color: var(--Soft-blue); 
 }
