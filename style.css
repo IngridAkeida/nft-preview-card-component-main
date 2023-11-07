@@ -19,6 +19,24 @@ ul,li{
 --Very-dark-blue-cardBG: #14253d;
 --Very-dark-blue-line: #2e415c;
 --White: #ffffff;
+
+/*footer*/
+
+--footer: #3d52a3;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+}
+
+.container{
+  background-color: var(--Very-dark-blue-mainBG);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -30,5 +48,5 @@ ul,li{
 }
 
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: var(--footer); 
 }
