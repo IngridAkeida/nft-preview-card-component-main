@@ -1,4 +1,25 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+ul,li{
+  text-decoration: none;
+  list-style: none;
+}
+
+:root{
+  --Soft-blue: #8bacda;
+  --Cyan: #00fff7;
+
+/*Neutral*/
+
+--Very-dark-blue-mainBG: #0d192b;
+--Very-dark-blue-cardBG: #14253d;
+--Very-dark-blue-line: #2e415c;
+--White: #ffffff;
+}
 
 
 
