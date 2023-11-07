@@ -47,7 +47,7 @@ body{
   align-items: center;
   justify-content: center;
   width: 16rem;
-  height: 27rem;
+  height: 28rem;
   padding: 1rem;
   border-radius: 1rem;
   gap: 1rem;
@@ -67,15 +67,38 @@ body{
   border-radius: 1rem;
 }
 
+.card-view{
+  cursor: pointer;
+  position: absolute;
+  margin-bottom: 11.5rem;
+  padding: 5.5rem 5.5rem;
+  border-radius: 1rem;
+  background-color: hsla(178, 100%, 50%, 0);
+  opacity: 0;
+}
+
+.card-view:hover{
+  background-color: hsla(178, 100%, 50%, 0.3);
+  opacity: 1;
+}
+
 .card-title{
   font-size: 1rem;
   font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card-text{
+  color: var(--Soft-blue);
+  font-size: 0.8rem;
 }
 
 .card-status{
   display: flex;
   align-items:center;
   justify-content:space-between;
+  width: 14rem;
+  gap: 1rem;
 }
 
 .status-1, 
@@ -84,6 +107,21 @@ body{
   text-align: center;
   align-items: center;
   justify-content: center;
+  gap: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.status-1{
+  color: var(--Cyan);
+}
+
+.status-days{
+  color: var(--Soft-blue);
+}
+
+hr{
+  width: 14rem;
+  border: 1px var(--Very-dark-blue-line) solid;
 }
 
 .profile{
@@ -91,11 +129,18 @@ body{
   text-align: left;
   align-items: center;
   justify-content:flex-start;
+  gap: 0.5rem;
+  width: 14rem;
 }
 
 .creation{
   font-size: 0.8rem;
   font-weight: 300;
+  color: var(--Soft-blue);
+}
+
+.nameUser{
+  color: var(--White);
 }
 
 .picture{
