@@ -69,6 +69,38 @@ body{
   font-weight: 600;
 }
 
+.card-status{
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.status-1, 
+.status-days{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile{
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.creation{
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.picture{
+  display: block;
+  width: 2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--White);
+}
 
 .attribution { 
   font-size: 11px; 
