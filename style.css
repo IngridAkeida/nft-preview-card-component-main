@@ -51,6 +51,10 @@ body{
   padding: 1rem;
 }
 
+.card-img{
+  display: block;
+  width: 14rem;
+}
 
 
 .attribution { 
