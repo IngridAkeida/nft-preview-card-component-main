@@ -51,9 +51,22 @@ body{
   padding: 1rem;
 }
 
+.card-main{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .card-img{
   display: block;
   width: 14rem;
+}
+
+.card-title{
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 
